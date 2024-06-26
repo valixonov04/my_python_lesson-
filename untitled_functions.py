@@ -189,16 +189,16 @@ Created on Sat Jun 22 09:33:11 2024
   
 #Uchta son qabul qilib, ulardan eng kattasini qaytaruvchi funksiya yozing
 
-def max_value(x,y,z):
-    """Uchta qiymatdan eng katasini chiqarib beruvchi funksiya """
-    max = x 
-    if y>= max:
-        max =y
-    if z>= max:
-        max = z
-    return max
+# def max_value(x,y,z):
+#     """Uchta qiymatdan eng katasini chiqarib beruvchi funksiya """
+#     max = x 
+#     if y>= max:
+#         max =y
+#     if z>= max:
+#         max = z
+#     return max
 
-print(max_value(50, 60, 80) ) 
+# print(max_value(50, 60, 80) ) 
 
 #Foydalanuvchidan aylaning radiusini qabul qilib olib, uning radiusini, diametrini, 
 #perimetri va yuzini lug'at ko'rinishida qaytaruvchi funksiya yozing
@@ -225,13 +225,13 @@ print(max_value(50, 60, 80) )
 #Matnlardan iborat ro'yxat qabul qilib, ro'yxatdagi har bir matnning birinchi harfini 
 #katta harfga o'zgatiruvchi funksiya yozing.
 
-def katta_harf(matnlar):
-    for i in range(len(matnlar)):
-        matnlar[i]=matnlar[i].title()   
+# def katta_harf(matnlar):
+#     for i in range(len(matnlar)):
+#         matnlar[i]=matnlar[i].title()   
 
-ismlar = ['ali', 'vali', 'hasan', 'husan']
-katta_harf(ismlar)
-print(ismlar)
+# ismlar = ['ali', 'vali', 'hasan', 'husan']
+# katta_harf(ismlar)
+# print(ismlar)
 
 
 
