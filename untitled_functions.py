@@ -231,7 +231,7 @@ Created on Sat Jun 22 09:33:11 2024
 
 # ismlar = ['ali', 'vali', 'hasan', 'husan']
 # katta_harf(ismlar)
-# print(ismlar)
+#   print(ismlar)
 
 
 
